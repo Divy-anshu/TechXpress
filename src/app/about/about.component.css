@@ -1,0 +1,306 @@
+#about{
+    background: url(../../assets/wall4.jpg) fixed;
+    padding: 4%;
+    margin-top: -12%;
+    animation: a2 2s;
+}
+@keyframes a2{
+    0%{
+        opacity: 0;
+    }
+}
+#about h1{
+    color: white;
+    margin: 22% 0% 0% 16%;
+    font-family: sans;
+    font-size: 350%;
+    font-weight: bolder;   
+}
+.line-1{
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 38%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+#about h2{
+   font-family: sans-serif;
+   margin: -0.5% 0% 0% 16%;
+   color: rgb(251, 255, 16);
+   font-weight: bolder;  
+   animation: aa2;
+   animation-duration: 10s;
+}
+#about mat-icon{
+    margin: 8% 0% 0% 26%;
+    font-size: 500%;
+    color: rgba(36, 31, 31, 0.692);
+    animation:updown 2s steps(44) infinite normal;
+    position: absolute;
+}
+
+@keyframes updown{
+    from{margin-top: 7.4%;}
+    to{margin-top: 8.2%;}
+}
+#about mat-icon:hover{
+    opacity: 0.7;
+}
+#author_img{
+   width: 32%;
+   margin: -30% 0% 0% 55%;
+   box-shadow: 0.2em 0.2em 0.2em rgb(41, 40, 40);
+}
+#dd1,#dd2,#dd3,#dd4{
+    font-family: sans;
+    color: crimson;
+    position: absolute;
+    font-size: 150%;
+    font-weight: bolder;
+    margin-top: -2%;
+    animation: aa;
+    animation-duration: 5s;
+}
+@keyframes aa1{
+    0%{
+        margin-top: -5%;
+        opacity: 0;
+    }
+}
+#dd1{
+    animation: dd1;
+    animation-duration: 5s;
+    margin-left:  15%;
+}
+@keyframes dd1{
+    0%{
+        margin-left: 50%;
+        opacity: 0;
+    }
+}
+#dd2{
+    animation: dd2;
+    animation-duration: 6s;
+    margin-left:  20.5%;
+}
+@keyframes dd2{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        margin-left: 50%;
+        opacity: 0;
+    }
+}
+#dd3{
+    animation: dd3;
+    animation-duration: 8s;
+    margin-left:  33%;
+}
+@keyframes dd3{
+    0%{
+        opacity: 0;
+    }
+    60%{
+        margin-left: 50%;
+        opacity: 0;
+    }
+}
+#dd4{
+    animation: dd4;
+    animation-duration: 8s;
+    margin-left:  44%;
+}
+@keyframes dd4{
+    0%{
+        opacity: 0;
+    }
+    80%{
+        margin-left: 50%;
+        opacity: 0;
+    }
+}
+.c1,.c2,.c3{
+    position: absolute;
+   font-family: sans;
+   color: white;
+   font-size: 150%;
+   margin-top: -2%;
+   animation: aa2;
+   animation-duration: 10s;
+}
+@keyframes aa2{
+    0%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+}
+.c1{
+    margin-left: 19.8%;
+}
+.c2{
+    margin-left: 32.2%;
+}
+.c3{
+    margin-left: 43.2%;
+}
+#socialicon{
+    margin: 1% 0% 0% 16%;
+    animation: aa2;
+    animation-duration: 10s;
+}
+.fa {
+    padding: 1%;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0.5%;
+}
+#fb{
+   color: white;
+   background: blue;
+}
+#twitter{
+    color: white;
+   background: rgb(54, 141, 175);
+}
+#google{
+    color: white;
+   background: rgb(235, 65, 65);
+}
+#insta{
+    color: white;
+   background: rgb(219, 84, 107);
+}
+#github{
+    background: darkgray;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+#d2{
+    background: rgb(253, 76, 11);
+    margin-top: -2%;
+    position: relative;
+    height: 300px;
+    z-index: 0.9;
+    padding: 1%;
+    clip-path: polygon(100% 0, 100% 100%, 75% 72%, 50% 100%, 25% 72%, 0 100%, 0 0);
+    
+}
+#d2 h1{
+    font-family: sans-serif;
+    color: white;
+}
+#d2 h2{
+    font-family: sans-serif;
+    color: white;
+    width: 50%;
+}
+#d3{
+    height: 640px;
+    background: slateblue;
+    margin-top:-10%;
+}
+#d3 img{
+    width: 20%;
+    position: absolute;
+    margin: 10% 0% 0% -40%;
+    box-shadow: 0.2em 0.2em 0.2em rgb(41, 40, 40);
+}
+#vector-art{
+    margin: 10% 0% 0% 35%;
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 27% 32%, 0% 100%);
+    background: yellow;
+    width: 50px;
+    height: 50px;
+}
+#d3 h2{
+    position: absolute;
+    margin: 10.5% 0% 0% 36.5%;
+    font-size: 250%;
+    color:darkgray;
+}
+#d3 h1{
+    position: absolute;
+    margin: 13.5% 0% 0% 36.5%;
+    font-size: 350%;
+    color:white;
+}
+#d3 p{
+    position: absolute;
+    margin: 18% 0% 0% 36.5%;
+    font-size: 150%;
+    color:white;
+    text-align: left;
+    width: 50%;
+}
+#d3 span{
+    position: absolute;
+    margin: 30% 0% 0% 28%;
+    font-size: 200%;
+    color:white;
+    font-family: sans;
+}
+mat-tab-group{
+    margin: 0% 0% 0% 40%;
+}
+ng-template{
+    background: brown;
+}
+#forms{
+    background: url(../../assets/g1.jpg);
+    height: 450px;
+    margin-top: -5%;
+}
+#forms h1{
+    padding-top: 6%;
+    margin: 0% 0% 0% 0%;
+    font-family: sans;
+    color: azure;
+}
+#forms form{
+   margin: 1% 0% 0% 0%;
+   width: 25%;
+}
+#forms input{
+    width: 100%;
+    margin: 2%;
+   height: 40px;
+   border-radius: 1%;
+   padding: 2%;
+   background: whitesmoke;
+}
+#forms button{
+    font-size: 150%;
+    padding: 2%;
+    border-radius: 2%;
+    margin: 1%;
+    background: rgb(230, 29, 96);
+    font-family: sans;
+    width: 20%;
+}
+#forms button:hover{
+    box-shadow: 0.2em 0.2em 0.2em rgb(41, 40, 40);
+    opacity: 0.9;
+}

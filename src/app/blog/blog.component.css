@@ -1,0 +1,60 @@
+#blog{
+   margin:-4% 0% 0% 0%;
+   background: #ddeefa;
+}
+#background-dark{
+    background: #7184b1;
+    width: 102%;
+    height: 300px;
+}
+#background-dark img{
+    margin: 4.5% 0% 0% 24%;
+    width: 50%;
+    box-shadow: 0.3em 0.3em 0.3em rgb(41, 40, 40);
+}
+#background-dark img:hover{
+    box-shadow: 0.4em 0.4em 0.4em rgb(41, 40, 40);
+}
+#background-dark h2{
+    margin: -24% 0% 0% 25%;
+    color: #faebd7;
+    font-family: sans;
+    font-size: 200%;
+    animation: c;
+    animation-duration: 5s;
+}
+@keyframes c{
+    0%{
+        opacity: 0;
+    }
+}
+#blogpost{
+    margin: 15% 0% 0% 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.blog-post-artical{
+    margin: 4%;
+    box-shadow: 0.2em 0.2em 0.2em rgb(41, 40, 40);
+    background: linear-gradient(45deg, rgba(192,192,192,0.5) 0%, rgba(255,255,255,0.75) 50%, rgba(128,128,128,1) 100%) fixed;
+
+}
+.blog-post-artical:hover{
+    box-shadow: 0.3em 0.3em 0.3em rgb(41, 40, 40);
+}
+.blog-post-artical img{
+    width: 100%;
+}
+.blog-post-artical h3{
+    font-family: sans;
+    margin: 0.4%;
+    font-size: 150%
+}
+.blog-post-artical span{
+    color: rgb(43, 40, 40);
+}
+.blog-post-artical p{
+    font-family: sans-serif;
+    margin: 0.4%;
+    font-size: 150%;
+}

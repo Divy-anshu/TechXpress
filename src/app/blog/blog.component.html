@@ -1,0 +1,13 @@
+<div id="blog">
+  <div id="background-dark">
+       <img src="../../assets/blog-laptop.jpg"/>
+       <h2>Welcome To TechXpress Blog</h2>
+  </div>
+  <div id="blogpost">
+    <div class="blog-post-artical" *ngFor="let feed of feeds.articles">
+      <img src="{{feed.urlToImage}}" />
+      <h3>{{feed.title}}</h3>
+      <span>{{feed.publishedAt}}</span>
+      <p>{{feed.description}}</p>  
+    </div>
+  </div>

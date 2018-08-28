@@ -1,0 +1,37 @@
+body{
+    background: palevioletred;
+}
+#categories{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+mat-card{
+   margin: 8%;  
+   color: #000;
+  
+}
+mat-card img{
+    clip-path:polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+mat-card:hover{
+  box-shadow: 0.3em 0.3em 0.3em rgb(41, 40, 40);
+  
+}
+mat-card-title{
+    font-family: sans;
+    font-size: 150%;
+}
+mat-card-content{
+    font-family: sans-serif;
+    font-size: 150%;
+}
+#d1, #d3, #d5, #d7{
+    background: linear-gradient(45deg, rgba(255,255,255,0.25) 0%, rgba(255,0,255,0.25) 1%, rgba(255,0,255,0.25) 99%, rgba(255,0,255,1) 100%);
+}
+#d0, #d2, #d4, #d6, #d8{
+    background: linear-gradient(45deg, rgba(5,193,255,0.15) 0%, rgba(5,193,255,0.99) 99%, rgba(255,255,255,1) 100%);
+}
+a {
+    text-decoration: none;
+}

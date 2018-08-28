@@ -1,0 +1,10 @@
+<div id="latestheadlines">
+    <h1>The Latest</h1>
+    <div class="latest-feed-line" *ngFor="let feed of feeds.articles">
+      <h2>{{feed.title}}</h2>
+      <span>{{feed.publishedAt}}</span>
+      <p>{{feed.description}}</p>
+      <img src="{{feed.urlToImage}}"/>
+    </div>
+  </div>
+  

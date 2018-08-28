@@ -1,0 +1,23 @@
+<div id="categories">
+    <div *ngFor="let feed of feeds.articles | slice:0:9;  index as i">
+    <mat-card id="d{{i}}">
+    <img mat-card-image src="{{feed.urlToImage}}"/>
+    <mat-card-title>{{feed.title}}</mat-card-title>
+    <mat-card-subtitle>author: {{feed.author}}</mat-card-subtitle>
+    <mat-card-content>{{feed.description}}</mat-card-content>
+
+    <button mat-fab [matMenuTriggerFor]="appMenu">
+            <mat-icon>share</mat-icon>
+        </button>
+        <a href="{{feed.url}}" target="_blank">
+            <button mat-fab>
+                <mat-icon>open_in_browser</mat-icon>
+            </button>
+        </a>
+    </mat-card>
+    </div>
+</div>
+<mat-menu #appMenu="matMenu">
+        <button mat-menu-item>Settings</button>
+        <button mat-menu-item>Help</button>
+      </mat-menu>

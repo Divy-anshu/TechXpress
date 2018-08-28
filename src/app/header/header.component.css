@@ -1,0 +1,81 @@
+#header{
+    background: #7184b1;
+    height: 10%;
+    padding: 1%;
+}
+#header h1{
+   font-family: sans-serif;
+   padding: 2%;
+   margin-top: -0.5%;
+  opacity: 0.7;
+    color: white;
+}
+#header h2{
+    font-family: sans;
+    margin-top: -5%;
+    padding: 2%;
+    color: white;
+}
+@font-face{
+    src:url(../../assets/Acme-Regular.ttf);
+    font-family: sans;
+}
+@font-face{
+    src:url(../../assets/OpenSans-Light.ttf);
+    font-family: opensans;
+}
+#menu{
+    margin: -2% 0% 0% 0%;
+    background: #7184b1;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#menu span{
+    margin: 2%;
+    font-family: sans;
+    color:rgb(46, 42, 38);
+    font-size: 150%;
+}
+#menu span:hover{
+    color: rgb(220, 236, 218);
+}
+
+/* You can add global styles to this file, and also import other style files */
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    opacity: 0.7;
+    color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    box-shadow: 0.2em 0.2em 0.2em rgb(41, 40, 40);
+}
+#socialicon{
+    margin: -8% 0% 2% 70%;
+}
+#items{
+    margin: 0% 0% 0% 0%;
+    background: #7184b1;
+    padding: 0% 1% 0% 1%;
+    visibility: hidden;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+#items span{
+    font-family: sans;
+    font-size: 150%;
+    color: rgb(46, 42, 38);
+    margin: 0% 1% 0% 1%;
+}
+#items span:hover{
+    color:white;
+}

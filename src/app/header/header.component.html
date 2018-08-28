@@ -1,0 +1,25 @@
+
+<div id="header">
+  <h1>TechXpress</h1>
+  <h2>We Make IT Happen</h2>
+  <div id="socialicon">
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-google"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-pinterest"></a>
+  <a href="#" class="fa fa-rss"></a>
+  </div>
+</div>
+<div id="menu" align="center">
+    <span routerLink = "home">Home</span>
+    <span routerLink = "latestfeed">Latest</span>
+    <span (mouseover)="showitems($event)" (mouseout)="hideitems($event)">Top News</span>
+    <span routerLink = "blog">Blog</span>
+    <span routerLink = "about">About Developer</span>
+</div>
+<div align="center" id="items" (mouseover)="showitems($event)" (mouseout)="hideitems($event)" [@myanimation] = "state"><br/>
+  <span routerLink="/categories" [queryParams]="{id: 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=b4418087a008452daf903ec2800b8409'}">Techcrunch</span>
+  <span routerLink="categories" [queryParams]="{id: 'https://newsapi.org/v2/top-headlines?sources=techradar&apiKey=b4418087a008452daf903ec2800b8409'}">Tech Radar</span>
+  <span routerLink="/categories" [queryParams]="{id: 'https://newsapi.org/v2/top-headlines?sources=hacker-news&apiKey=b4418087a008452daf903ec2800b8409'}">HackerRank</span>
+</div>
